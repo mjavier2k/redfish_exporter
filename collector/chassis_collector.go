@@ -34,7 +34,7 @@ var (
 		"chassis_state": {
 			desc: prometheus.NewDesc(
 				prometheus.BuildFQName(namespace, ChassisSubsystem, "state"),
-				"state of chassis,1(Enabled),2(Disabled),3(StandbyOffinline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
+				"state of chassis,1(Enabled),2(Disabled),3(StandbyOffline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
 				ChassisLabelNames,
 				nil,
 			),
@@ -42,7 +42,7 @@ var (
 		"chassis_temperature_sensor_state": {
 			desc: prometheus.NewDesc(
 				prometheus.BuildFQName(namespace, ChassisSubsystem, "temperature_sensor_state"),
-				"status state of temperature on this chassis component,1(Enabled),2(Disabled),3(StandbyOffinline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
+				"status state of temperature on this chassis component,1(Enabled),2(Disabled),3(StandbyOffline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
 				ChassisTemperatureLabelNames,
 				nil,
 			),
@@ -66,7 +66,7 @@ var (
 		"chassis_fan_state": {
 			desc: prometheus.NewDesc(
 				prometheus.BuildFQName(namespace, ChassisSubsystem, "fan_state"),
-				"fan state on this chassis component,1(Enabled),2(Disabled),3(StandbyOffinline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
+				"fan state on this chassis component,1(Enabled),2(Disabled),3(StandbyOffline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
 				ChassisFanLabelNames,
 				nil,
 			),
@@ -82,7 +82,7 @@ var (
 		"chassis_power_voltage_state": {
 			desc: prometheus.NewDesc(
 				prometheus.BuildFQName(namespace, ChassisSubsystem, "power_voltage_state"),
-				"power voltage state of chassis component,1(Enabled),2(Disabled),3(StandbyOffinline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
+				"power voltage state of chassis component,1(Enabled),2(Disabled),3(StandbyOffline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
 				ChassisPowerVoltageLabelNames,
 				nil,
 			),
@@ -106,7 +106,7 @@ var (
 		"chassis_power_powersupply_state": {
 			desc: prometheus.NewDesc(
 				prometheus.BuildFQName(namespace, ChassisSubsystem, "power_powersupply_state"),
-				"powersupply state of chassis component,1(Enabled),2(Disabled),3(StandbyOffinline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
+				"powersupply state of chassis component,1(Enabled),2(Disabled),3(StandbyOffline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
 				ChassisPowerSupplyLabelNames,
 				nil,
 			),
@@ -138,7 +138,7 @@ var (
 		"chassis_network_adapter_state": {
 			desc: prometheus.NewDesc(
 				prometheus.BuildFQName(namespace, ChassisSubsystem, "network_adapter_state"),
-				"chassis network adapter state,1(Enabled),2(Disabled),3(StandbyOffinline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
+				"chassis network adapter state,1(Enabled),2(Disabled),3(StandbyOffline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
 				ChassisNetworkAdapterLabelNames,
 				nil,
 			),
@@ -154,7 +154,7 @@ var (
 		"chassis_network_port_state": {
 			desc: prometheus.NewDesc(
 				prometheus.BuildFQName(namespace, ChassisSubsystem, "network_port_state"),
-				"chassis network port state state,1(Enabled),2(Disabled),3(StandbyOffinline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
+				"chassis network port state state,1(Enabled),2(Disabled),3(StandbyOffline),4(StandbySpare),5(InTest),6(Starting),7(Absent),8(UnavailableOffline),9(Deferring),10(Quiesced),11(Updating)",
 				ChassisNetworkPortLabelNames,
 				nil,
 			),
