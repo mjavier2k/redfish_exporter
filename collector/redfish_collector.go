@@ -124,7 +124,6 @@ func newRedfishClient(targetHostConfig *config.HostConfig) (*gofish.APIClient, e
 
 	redfishClient, err := gofish.Connect(config)
 	if err != nil {
-		fmt.Print(err)
 		return nil, err
 	}
 	return redfishClient, nil
